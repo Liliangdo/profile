@@ -1,0 +1,118 @@
+/* BASE SETUP */
+body {
+  background-color: rgb(235, 235, 235);
+  font-family: 'Open-sans', sans-serif;
+  color: rgb(30, 30, 30)
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 0px;
+  color: rgb(20, 20, 20);
+}
+
+td {
+  text-align: justify;
+}
+
+p {
+  font-family: 'Open-sans', sans-serif;
+  color: #551A8B;
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 0px;
+  color: rgb(125, 125, 125);
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #B13CD5;
+  font-size: 22px;
+  color: #B13CD5;
+}
+
+h2 {
+  color: #E23E57;
+  font-size: 18px;
+  color: #F14E95
+}
+h3 {
+  color: #B13CD5;
+  font-size: 16px;
+  color: #B13CD5;
+}
+
+.container {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.card {
+  text-align: center;
+  background: #FFF;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 25px;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0px;
+  font-size: 50px
+}
+
+.resize {
+  width: 150px;
+  height: auto;
+}
+
+/* PROFILE PICTURE */
+.img-circle {
+  border-radius: 50%;
+}
+
+#leader {
+  border: 5px solid #E9E9E9;
+}
+
+/* SOCIAL LINKS */
+.social-links .fa {
+  color: #E9E9E9;
+  transition: all 200ms ease-in-out;
+}
+.social-links .fa:hover {
+   transform: scale(1.15);
+}
+.social-links .fa-facebook:hover {
+  color: #3B5998;
+}
+.social-links .fa-youtube:hover {
+  color: #bb0000;
+}
+.social-links .fa-twitter:hover {
+  color: #55acee;
+}
+.social-links .fa-github:hover {
+  color: black;
+}
+
+.align {
+  padding-left: 30px;
+}
+}
+
+
+
